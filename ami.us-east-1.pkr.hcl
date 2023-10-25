@@ -77,6 +77,7 @@ build {
     destination = "~/WebAppRenamed"
   }
 
+
   provisioner "file" {
 
     source      = "nodeapp.service"
@@ -93,4 +94,5 @@ build {
     scripts = ["./automatic-start.sh"]
 
   }
+
 }

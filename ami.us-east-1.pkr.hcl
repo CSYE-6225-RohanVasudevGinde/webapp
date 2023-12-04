@@ -102,7 +102,6 @@ build {
 
   post-processor "manifest" {
     output      = "manifest.json"
-    ami_regions = ["us-east-1"]
   }
 
 }

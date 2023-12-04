@@ -93,7 +93,7 @@ jobs:
           --launch-template-name ${{ env.LAUNCH_TEMPLATE_NAME }} \
           --version-description "New version with latest AMI" \
           --source-version 1 --launch-template-data '{"ImageId":"${{ env.AMI_ID }}"}'
-          
+
           
     - name: Update Auto Scaling Group
       run: |
